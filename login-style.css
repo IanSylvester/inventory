@@ -1,0 +1,70 @@
+body {
+  background-image: url(login-background3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.loginHeader {
+  text-align: center;
+  color: rgb(156, 15, 10);
+  text-shadow: black -1px 1px;
+}
+div.loginHeader h1 {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+div.loginHeader h3 {
+  font-size: 30px;
+  margin-top: 0;
+  margin: 0;
+  color: rgb(33, 117, 22);
+  text-transform: uppercase;
+}
+div.loginHeader h3::after {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  background: rgb(145, 23, 23);
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: black -1px 1px;
+  margin-bottom: 15px;
+}
+div.loginBody form {
+  margin: 0 auto;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border: 2px solid rgb(145, 35, 35);
+  border-radius: 8px;
+}
+div.loginInputsContainer {
+  margin-top: 30px;
+  text-align: center;
+}
+div.loginInputsContainer label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+
+  color: white;
+}
+div.loginInputsContainer input {
+  height: 20px;
+  width: 100%;
+  border: 2px solid rgb(145, 35, 35);
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+}
+div.LoginBtnContainer button {
+  font-size: 15px;
+  padding: 20px, 20px, 20px, 20px;
+  background-color: rgb(145, 35, 35);
+  color: white;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: none;
+}
