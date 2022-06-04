@@ -1,0 +1,18 @@
+#dashboardMainContainer{
+    display:flex;
+    flex-direction:row;
+    }
+div.dashboard_sidebar{
+    width: 20%;
+    background: rgb(156, 15, 10) ;
+    height: 100vh;
+}
+div.dashboard_content_container{
+    width: 70%;
+}
+h3.dashboard_logo{
+    color:antiquewhite;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
