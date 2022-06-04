@@ -20,4 +20,8 @@ div.dashboard_sidebar_user img {
   width: 60px;
   display: inline-block;
   margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
 }
+div.
