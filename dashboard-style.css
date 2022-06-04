@@ -8,7 +8,8 @@ div.dashboard_sidebar {
   height: 100vh;
 }
 div.dashboard_content_container {
-  width: 70%;
+  width: 80%;
+  background-image: url(login-background3.jpg);
 }
 h3.dashboard_logo {
   color: antiquewhite;
